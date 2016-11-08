@@ -1,6 +1,10 @@
 # docker-toolbox-env
 A setup to map current project directory to docker virtualbox.
 
+## Usage
+
+Simply run the script form the home directory of your project.
+
 ## Context
 
 I develop on a **Windows 10 Home** machine with **git Bash** on different king of web projects. The problem is that Docker isn't meant to be deployed on such configuration. Indeed, Windows 10 Home does not provide _Hyper-X_, thus Docker provides a toolbox which is basically a _VirtualBox_ machine with a minimal linux configuration named docker-machine.
